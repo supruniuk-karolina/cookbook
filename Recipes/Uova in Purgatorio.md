@@ -3,7 +3,7 @@ id: uova-in-purgatorio
 title: Uova in Purgatorio
 date: 2025-08-31 22:18
 tags: [Italy, Naples, vegetarian, eggs, breakfast]
-keywords: [one-pan, traditional, tomato-based, family-friendly]
+keywords: [one-pan, traditional, tomato-based, family-friendly, Mediterranean]
 cuisine: Italian
 region: Campania
 difficulty: 3
@@ -13,7 +13,7 @@ cookTime: 35
 totalTime: 40
 servings: 2
 source: https://ricette.giallozafferano.it/Uova-in-purgatorio.html
-image: uova-in-purgatorio.jpeg
+image:
 ---
 
 # Ingredients
