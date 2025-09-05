@@ -1,20 +1,57 @@
-date::2025-07-11 22:12
-tags::[[recipes]], [[Japan]], [[fish]]
-difficulty::2
-prepTime::10
-cookTime::20
-cost::4
-link::https://www.sirogohan.com/recipe/saketeri/
-
 ---
-![[salmon-teriyaki.jpg]]
+id: salmon-teriyaki
+title: Salmon teriyaki (鮭の照り焼き)
+date: 2025-07-11 22:12
+tags: [Japan, fish, Asia, East Asia, salmon, teriyaki]
+keywords: [one-pan, family-friendly]
+cuisine: Japanese
+region: East Asia
+difficulty: 2
+cost: 4
+prepTime: 10
+cookTime: 20
+totalTime: 30
+servings: 2
+source: https://www.sirogohan.com/recipe/saketeri/
+image: 
+nutrition: # To be filled by API
+  calories: null
+  protein: null
+  fat: null
+  carbs: null
+  fiber: null
+ingredients:
+  - name: raw salmon
+    amount: 500
+    unit: g
+  - name: olive oil
+    amount: 1
+    unit: tsp
+  - name: soy sauce
+    amount: 1
+    unit: tbs
+  - name: salt
+    amount: 0.25
+    unit: tsp
+  - name: flour
+    amount: 1
+    unit: tbs
+  - name: sake
+    amount: 1
+    unit: tbs
+  - name: mirin
+    amount: 1
+    unit: tbs
+  - name: sugar
+    amount: 1
+    unit: tsp
+  - name: black pepper
+    amount: 0.25
+    unit: tsp
+---
+
 > This is a dish that is frequently made at home or packed in bento boxes. Teriyaki isn't a sauce as Westerns and Europeans think, but rather a cooking method, which means glossy grilled using a sweet-savory sauce. "Teri" stands for glossy shine and "yaki" means to grill or pan-fry. 
-# Nutrition
-- [ ] protein -> 36 g
-- [ ] carbs -> 18 g
-- [ ] fats -> 15 g
-- [ ] fibers -> 0.5 g
-- [ ] calories -> 370 kcal
+
 # Ingredients
 - [ ] raw salmon -> 2 pieces
 - [ ] flour -> 1 tbs
@@ -24,7 +61,8 @@ link::https://www.sirogohan.com/recipe/saketeri/
 - [ ] **A** mirin -> 1 tbs
 - [ ] **A** sugar -> 1 tsp
 - [ ] salt -> to taste
-- [ ] pepper -> to taste
+- [ ] black pepper -> to taste
+
 # Steps
 1. Sprinkle salmon with a light amount of salt and let it sit for around 10 minutes to reduce the fishy smell.
 2. After that, sprinkle a little pepper over it and coat it with flour (a rough guideline is around 1 tbs for every 2 pieces of salmon). It should be just thinly coated, so remove any excess flour if needed. 

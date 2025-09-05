@@ -1,35 +1,75 @@
-date::2025-07-06 19:34
-tags::[[recipes]], [[Italy]], [[first course (primo)]]
-difficulty::3
-prepTime::20
-cookTime::30
-cost::3
-link::https://www.giallozafferano.com/recipes/sausage-risotto.html
-
 ---
-![[rizotto-alla-salsiccia.avif]]
-# Nutrition
-- [ ] protein -> 108 g
-- [ ] carbs -> 266 g
-- [ ] fats -> 186 g
-- [ ] fibers -> 186 g
-- [ ] calories -> 3270 ccal
+id: risotto-alla-salsiccia
+title: Risotto alla Salsiccia
+date: 2025-07-06 19:34
+tags: [Italy, rise, sausage, primo]
+keywords: [one-pan, family-friendly, Mediterranean]
+cuisine: Italian
+region: Mediterranean
+difficulty: 3
+cost: 3
+prepTime: 20
+cookTime: 30
+totalTime: 50
+servings: 4
+source: https://www.giallozafferano.com/recipes/sausage-risotto.html
+image: 
+nutrition: # To be filled by API
+  calories: null
+  protein: null
+  fat: null
+  carbs: null
+  fiber: null
+ingredients:
+  - name: carnaroli rice
+    amount: 320
+    unit: g
+  - name: meat broth
+    amount: 1
+    unit: l
+  - name: olive oil
+    amount: 2
+    unit: tbs
+  - name: shallot
+    amount: 1
+    unit: unit
+  - name: chipolata
+    amount: 400
+    unit: g
+  - name: white wine
+    amount: 40
+    unit: g
+  - name: thyme
+    amount: 2
+    unit: spring
+  - name: butter
+    amount: 40
+    unit: g
+  - name: pamigiano reggiano
+    amount: 40
+    unit: g
+  - name: black pepper
+    amount: 0.5
+    unit: tsp
+---
+
 # Ingredients
 - [ ] carnaroli rice -> 320 g
 - [ ] meat broth -> 1 L
 - [ ] shallot -> 1
-- [ ] virgin olive oil -> 2 spoons
-- [ ] sausage to your liking -> 400 g
+- [ ] virgin olive oil -> 2 tbs
+- [ ] sausage to your liking (I recommend chipolata) -> 400 g
 - [ ] white wine -> 40 g
 - [ ] thyme -> to taste
 - [ ] black pepper -> to taste
 - [ ] butter -> 40 g
-- [ ] pamigiano reggiano PDO -> 40g
+- [ ] pamigiano reggiano -> 40g
+
 # Steps
 1. Remove the casing of the sausage, cutting in 2 centimeters pieces.
-2. In a saucepan, heat 2 tbs of olive oil, add the sausage and let it brown for about ==7 mins== over medium-high heat.
+2. In a saucepan, heat 2 tbs of olive oil, add the sausage and let it brown for about 7 mins over medium-high heat.
 3. Cut the shallot into thin slices and add it to the pan. Mix well.
-4. Add the fresh thyme leaves and deglaze it with white wine, scraping the bottom of the pan well with a wooden spoon to deglaze it. Brown the sausage pieces for another ==5 minutes==.
+4. Add the fresh thyme leaves and deglaze it with white wine, scraping the bottom of the pan well with a wooden spoon to deglaze it. Brown the sausage pieces for another 5 minutes.
 5. Transfer the sausage into a bowl. Pour the rice into the same pan, without adding oil. Let it roast for another 3-4 minutes, stirring often. 
 6. Gradually add the hot broth, making sure to wait until it is absorbed before adding more. Stir continuously until the rice is cooked. After about 15 mins, add the sausage.
 7. Mix well and add one last time a little bit of broth. 
