@@ -1,5 +1,6 @@
 {
     "require": {
-        "spatie/yaml-front-matter": "^2.1"
+        "spatie/yaml-front-matter": "^2.1",
+        "league/commonmark": "^2.7"
     }
 }
