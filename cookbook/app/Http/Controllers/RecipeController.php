@@ -11,9 +11,9 @@ class RecipeController extends Controller
     {
         $recipe = Recipe::all()->firstWhere('id', $id);
 
-        //if (! $recipe) {
-        //    abort(404);
-        //}
+        if (! $recipe) {
+            abort(404);
+        }
 
         $converter = new CommonMarkConverter();
         $html = $converter->convert($recipe->markdown);
