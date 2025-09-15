@@ -6,7 +6,7 @@
     <title>Cookbook</title>
     <link rel="stylesheet" href="{{ asset('assets/css/screen.css') }}">
 </head>
-<body class="bg-gray-100 font-sans">
+<body>
     {{ $slot }}
 </body>
 </html>

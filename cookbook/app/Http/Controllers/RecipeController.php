@@ -3,7 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Models\Recipe;
-use League\CommonMark\CommonMarkConverter;
+use Illuminate\Mail\Markdown;
+use League\CommonMark\MarkdownConverter;
+use League\CommonMark\Environment\Environment;
+use League\CommonMark\Extension\CommonMark\CommonMarkCoreExtension;
+use League\CommonMark\Extension\TaskList\TaskListExtension;
 
 class RecipeController extends Controller
 {
@@ -15,7 +19,12 @@ class RecipeController extends Controller
             abort(404);
         }
 
-        $converter = new CommonMarkConverter();
+        $environment = new Environment();
+        $environment->addExtension(new CommonMarkCoreExtension());
+        $environment->addExtension(new TaskListExtension());
+
+        $converter = new MarkdownConverter($environment);
+
         $html = $converter->convert($recipe->markdown);
 
         return view('recipes.show', [
