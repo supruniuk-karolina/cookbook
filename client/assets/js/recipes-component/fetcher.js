@@ -1,0 +1,1 @@
+import { getRecipesUrl } from "../config.js";
