@@ -8,5 +8,7 @@ Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:sanctum');
 
-Route::get('/recipes/{id}', [RecipeApiController::class, 'show']);
-Route::get('/recipes', [RecipeApiController::class, 'index']);
+Route::middleware('throttle:30,1')->group(function () {
+    Route::get('/recipes/{id}', [RecipeApiController::class, 'show']);
+    Route::get('/recipes', [RecipeApiController::class, 'index']);
+});
