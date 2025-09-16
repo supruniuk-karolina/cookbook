@@ -36,7 +36,7 @@ class RecipeApiController extends Controller
         $environment->addExtension(new TaskListExtension());
         $converter = new MarkdownConverter($environment);
 
-        $html = $converter->convert($recipe->markdown);
+        $html = $converter->convert($recipe->markdown)->getContent();
 
         return response()->json([
             'id' => $recipe->id,
