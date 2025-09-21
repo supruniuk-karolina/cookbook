@@ -1,13 +1,12 @@
-function fetchRecipes(url, method, body){
-    return fetch(url, buildOptions(method, body))
-        .then(response =>  response.json())
-        .then(json => {
-            if ('errors' in json){
-                throw json;
-            } else {
-                return json;
-            }
-        });
+async function fetchRecipes(url, method, body){
+    const response = await fetch(url, buildOptions(method, body))
+    const json = await response.json();
+
+    if ('errors' in json){
+        throw json;
+    }
+    
+    return json;
 }
 
 function buildOptions(method, body){
